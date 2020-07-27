@@ -1,0 +1,26 @@
+table {
+	border: 5px solid black;
+	border-spacing: 5px;
+	background: yellow;
+}
+
+
+td {
+
+	border: 1px solid black;
+	padding:20px;
+}
+
+td:hover {
+	border: 3px solid black;
+	padding: 10px;
+	background-color: red;
+}
+
+td:nth-child(1){
+	background-color: cyan;
+}
+
+#cyan {
+	background-color: cyan;
+}
